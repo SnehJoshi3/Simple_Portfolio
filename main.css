@@ -92,10 +92,6 @@ body {
   display: "objective";
 }
 
-.frmobile {
-  min-width: 680px;
-}
-
 .section h2,
 .section h3 {
   margin-top: 25px;
