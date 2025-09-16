@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneh Joshi Portfolio</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="profile">
+      <img src="https://cdn-icons-png.flaticon.com/512/921/921347.png" alt="Profile">
+      <div>
+        <h1>Sneh Joshi</h1>
+        <span style="background:#444;padding:5px 10px;border-radius:5px;">AI/ML Intern</span>
+      </div>
+    </div>
+    <div class="contact">
+      <a href="https://www.linkedin.com/in/sneh-joshi-0a46272b5/" target="_blank">
+        <img src="assets/images/LinkedIn_icon.svg.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+      </a>
+      <a href="https://github.com/SnehJoshi3" target="_blank">
+        <img src="assets/images/github-icon-filled-256.webp" alt="Git hub" style="width: 32px; height: 32px;">
+        <a href="https://replit.com/@SnehJoshi1" target="_blank">
+          <img src="assets/images/replit_png.png" alt="Repl" style="width: 32px; height: 32px;">
+        </a>
+    </div>
+  </div>
+  <!-- Navigation Bar -->
+  <nav id="navbar" class="frmobile">
+    <ul>
+      <li><a href="#" onclick="showSection('about')">About</a></li>
+      <li><a href="#" onclick="showSection('resume')">Resume</a></li>
+      <li><a href="#" onclick="showSection('achivement')">Achievements & Certificates </a></li>
+      <li><a href="#" onclick="showSection('education')">Education</a></li>
+      <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="content_area">
+    <section id="about" class="section">
+      <b>Hi, I’m Sneh Joshi.</b><br>
+      <p>I am currently pursuing a Bachelor's degree in Information Technology, following the successful completion of
+        my diploma from Government Polytechnic, Ahmedabad. My academic journey has equipped me with a strong foundation
+        in computer science principles, and I have developed a particular interest in the fields of Artificial
+        Intelligence and Machine Learning.
+      </p><br>
+      <p>As an enthusiastic learner, I am deeply motivated by the evolving possibilities of AI/ML and actively seek
+        opportunities to apply my knowledge to real-world challenges. I am continually exploring ways to enhance my
+        skills through hands-on projects, certifications, and participation in tech communities. My long-term goal is to
+        contribute meaningfully to the AI/ML domain by developing intelligent, efficient, and ethical solutions that
+        drive innovation and add value.</p>
+
+    </section>
+    <section id="resume" class="section" style="display: none;">
+      <h2>Technical Skills</h2>
+      <ul class="content">
+        <li><strong>Languages:</strong> Python, JavaScript, C++</li>
+        <li><strong>Libraries/Frameworks:</strong> NumPy, Pandas, Matplotlib, TensorFlow, Scikit-learn</li>
+        <li><strong>Tools:</strong> Git, Replit, Visual Studio Code</li>
+      </ul>
+
+      <h2>Strengths</h2>
+      <p>I consider myself a hardworking and sincere individual, always eager to learn and improve. I am comfortable
+        working both independently and collaboratively in team settings.</p>
+
+      <h2>Projects</h2>
+
+      <h3>Telegram Bot using Python</h3>
+      <ul class="content">
+        <li>Developed during diploma coursework using the <code>python-telegram-bot</code> library.</li>
+        <li>Implemented features like auto-replies, command handling, and message formatting.</li>
+        <li>Gained hands-on experience working with APIs and asynchronous programming.</li>
+      </ul>
+
+      <h3> Personal Portfolio Website</h3>
+      <ul class="content">
+        <li>Designed and built a responsive personal website using HTML5, CSS3, and JavaScript.</li>
+        <li>Showcases resume, skills, contact information, and personal projects.</li>
+        <li>Emphasized clean, mobile-friendly layout with intuitive navigation.</li>
+      </ul>
+
+      <h3>Mini Web Projects</h3>
+      <ul class="content">
+        <li>Created landing pages and static multi-page websites as practice projects.</li>
+        <li>Focused on core front-end development principles and improving code structure.</li>
+      </ul>
+      <h3>Yield Prediction Using Linear Regression (YBI Foundation)</h3>
+      <ul class="content">
+        <li>Completed as part of a guided project from YBI Foundation on agricultural yield prediction.</li>
+        <li>Built and trained a <strong>Linear Regression</strong> model using Python and <code>scikit-learn</code> to
+          predict crop yield based on rainfall, temperature, and other environmental factors.</li>
+        <li>Performed data preprocessing, scaling, model evaluation (R² score), and predictions.</li>
+        <li>Gained practical experience in feature engineering, model training, and evaluation in a real-world ML
+          pipeline.</li>
+        <li>
+          <a href="https://github.com/SnehJoshi3/Ybi_Project" target="_blank" style="color:#3fa1f5;">View Project on
+            GitHub</a>
+        </li>
+      </ul>
+    </section>
+    <section id="achivement" class="section">
+      <h2>Achievements & Certifications</h2>
+      <ul class="content">
+        <li>
+          <strong>Selected for Wipro Scholar Trainee Program</strong> under the SIM initiative, recognizing academic
+          potential and professional aptitude.
+        </li>
+        <br>
+        <li>
+          <strong>Data Science & Machine Learning Internship – Edureka</strong>
+          <br><em>Completed: February 2024</em>
+          <br>Gained experience in supervised learning, data preprocessing, and real-world ML projects.
+        </li>
+        <br>
+        <li>
+          <strong>Machine Learning Bootcamp – Learn & Build</strong>
+          <br><em>Completed: June 2025</em>
+          <br>Participated in intensive training covering ML algorithms, Python, and hands-on exercises.
+        </li>
+        <br>
+        <li>
+          <strong>Azure Data Fundamentals – Microsoft Certified</strong>
+          <br>Learned cloud concepts, core data services in Azure, and basics of data storage and processing.
+        </li>
+        <br>
+        <li>
+          <strong>Web Development Fundamentals – Microsoft Learn Student Ambassadors</strong>
+          <br>Completed the Cloud Skills Challenge on core web technologies (HTML, CSS, JavaScript).
+        </li>
+        <br>
+        <li>
+          <strong>Online Internship – YBI Foundation</strong>
+          <br>Worked on a yield prediction project using Linear Regression and scikit-learn.
+        </li>
+        <br>
+        <li>
+          <strong>Tech for Everyone Workshop – IITRAM</strong>
+          <br>Participated in a tech literacy event promoting foundational computing and web technologies.
+        </li>
+      </ul>
+    </section>
+
+    <section id="education" class="section" style="display: none;">
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Education</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">SSC from Secondary Board of Secondary Education </h4>
+
+            <span>2019 — 2020</span>
+
+            <p class="timeline-text">
+              Percentage : 79%.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Diploma From Government Polytechnic </h4>
+
+            <span>2020 — 2023</span>
+
+            <p class="timeline-text">
+              CGPA : 8.96.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Bachelor's In Information Technology </h4>
+
+            <span>2002 — 2004</span>
+
+            <p class="timeline-text">
+              CGPA : 8.73 and SPI(6th sem) : 8.96.
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+    </section>
+    <section id="contact" class="section" style="display: none;">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+        <form action="https://formsubmit.co/info.snehjoshi@gmail.com" method="POST" class="contact-form">
+
+          <input type="hidden" name="_captcha" value="false">
+
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+  </section>
+
+</body>
+
+</html>
